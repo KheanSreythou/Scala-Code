@@ -5,7 +5,7 @@ object ReverseListDemo{
     var list=list1:::list2
     println("List1 + List2 : ")
     list.foreach{println}
-    println("Reversed of the concaternation:")
+    println("Reversed of the concatenate list:")
     println(list.reverse)
   }
 }
