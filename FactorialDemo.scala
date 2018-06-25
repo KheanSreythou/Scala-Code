@@ -5,9 +5,9 @@ object FactorialDemo {
     println("The factorial of "+num+" : "+fac(num))
   }
   def fac(number:Int):Int={
-    if(number==1)
-      return 1
-    else
+    if(number!=1)
       return number*fac(number-1)
+    else
+      return 1
   }
 }
