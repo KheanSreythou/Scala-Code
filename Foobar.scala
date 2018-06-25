@@ -1,7 +1,7 @@
 object Main{
   def main(args:Array[String]){
     println("Input your number:")
-    var n=scala.io.StdIn.readInt
+    var n=scala.io.StdIn.readInt()
     if(n%15==0){
       print("Foobar")
     }
